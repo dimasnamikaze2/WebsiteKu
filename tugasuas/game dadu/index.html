@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<title>Lempar Dadu</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		<h1>Pelemparan Dadu Ular Tangga</h1>
+		<table class="tbl" align="center">
+			<tr>
+				<th class="a">Dadu</th>
+				<th class="a">Gambar</th>
+				<th class="a">Nilai</th>
+				<th class="a">Lempar Dadu</th>
+			</tr>
+			<tr>
+				<td class="b">A</td>
+				<td class="b"><img id="imgA" src="asset/1.png"></td>
+				<td class="b" id="A">1</td>
+				<td class="b"><button onclick="btnA()" id="hide">Lempar Dadu A</button></td>
+			</tr>
+			<tr>
+				<td class="b">B</td>
+				<td class="b"><img id="imgB" src="asset/1.png"></td>
+				<td class="b" id="B">1</td>
+				<td class="b"><button onclick="btnB()" id="hide" >Lempar Dadu B</button></td>
+			</tr>
+		</table>
+		
+		<br>
+        <p align="center">
+            <button type="button" onclick="btnA(); btnB()" id="hide">
+                Lempar sekaligus
+            </button>
+        </p>
+		<p align="center">
+            <button type="button" onclick="btnTotal()" id="hide">
+                Total Langkah
+            </button>
+        </p>
+        <script src="script.js" charset="uth"></script>
+	</body>
+</html>
